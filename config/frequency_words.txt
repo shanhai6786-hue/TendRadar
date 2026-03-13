@@ -1,0 +1,60 @@
+# ═══════════════════════════════════════════════════════════════
+#                    TrendRadar 频率词配置文件
+# ═══════════════════════════════════════════════════════════════
+
+[GLOBAL_FILTER]
+震惊
+
+[WORD_GROUPS]
+
+# ═══════════════════════════════════════════════════════════════
+#                      用户自定义关键词（优先级最高）
+# ═══════════════════════════════════════════════════════════════
+
+[AI]
+/\bai\b/i => AI
+
+[AI Agent]
+/\bai\s*agent\b|\baiagent\b/i => AI Agent
+
+[LLM]
+/\bllm\b|大语言模型|大模型/i => LLM
+
+
+
+# ═══════════════════════════════════════════════════════════════
+#                      AI 代码能力相关（重点关注）
+# ═══════════════════════════════════════════════════════════════
+
+[Google Nano]
+/\bnano\b.*google|google.*\bnano\b|gemini\s*nano/i => Google Nano
+
+[Google Gemini / Flow Labs]
+/\bgemini\b|\bflow\s*labs?\b|\bdeepMind\b/i => Google Gemini
+
+[ChatGPT]
+/\bchatgpt\b|\bopenai\b|\bgpt-?4\b|\bgpt-?5\b|\bsora\b/i => ChatGPT
+
+[Claude]
+/\bclaude\b|\banthropic\b/i => Claude
+
+[Codex]
+/\bcodex\b/i => Codex
+
+[Kimi]
+/\bkimi\b|月之暗面/i => Kimi
+
+[GLM]
+/\bglm\b|智谱|chatglm/i => GLM
+
+[Agent]
+/\bagent\b|multi.?agent|智能体|多智能体/i => Agent
+
+[DeepSeek]
+/DeepSeek|梁文锋/i => DeepSeek
+
+[AI编程]
+/AI编程|Copilot|Cursor|AI代码|Windsurf|Devin/i => AI编程
+
+
+

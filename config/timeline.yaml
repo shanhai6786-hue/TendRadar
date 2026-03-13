@@ -1,0 +1,13 @@
+# 时间线调度配置
+presets:
+  always_on:
+    periods: {}
+    day_plans:
+      default:
+        collect: true
+        analyze: true
+        push: true
+        report_mode: "current"
+        ai_mode: "enabled"
+    week_map:
+      default: "default"
